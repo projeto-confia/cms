@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_how_works",
+  "info": {
+    "name": "sectionHowWorks",
+    "icon": "share-alt-square"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "processSteps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.process-step",
+      "required": true,
+      "max": 5,
+      "min": 2
+    }
+  }
+}

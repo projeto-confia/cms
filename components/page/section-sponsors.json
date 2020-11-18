@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_sponsors",
+  "info": {
+    "name": "sectionSponsors",
+    "icon": "hands-helping",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sponsors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.sponsor"
+    },
+    "title": {
+      "type": "string",
+      "default": "Patrocinadores",
+      "required": true,
+      "maxLength": 20
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_footers",
+  "info": {
+    "name": "footer",
+    "icon": "window-minimize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "shortAbout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.short-about"
+    },
+    "linksTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Links"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.links",
+      "required": true,
+      "min": 1
+    },
+    "socialNetworks": {
+      "type": "string",
+      "default": "Redes sociais",
+      "required": true
+    },
+    "socialNetwork": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.social-network"
+    }
+  }
+}
