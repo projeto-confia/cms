@@ -2,7 +2,7 @@
   "name": "cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "API for confia client",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -25,7 +25,7 @@
     "strapi-utils": "3.2.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "KMoreira(kmoreira620@gmail.com)"
   },
   "strapi": {
     "uuid": "cad0c1a5-6773-4b57-bd83-e29ccdebec51"
