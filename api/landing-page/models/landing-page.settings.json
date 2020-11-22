@@ -44,6 +44,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.footer"
+    },
+    "sectionTeam": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-team"
     }
   }
 }
