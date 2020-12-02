@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_section_statictics",
+  "info": {
+    "name": "sectionStatistics ",
+    "icon": "chart-bar"
+  },
+  "options": {},
+  "attributes": {
+    "statisticData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.statistic-data",
+      "required": true,
+      "max": 4,
+      "min": 1
+    }
+  }
+}
