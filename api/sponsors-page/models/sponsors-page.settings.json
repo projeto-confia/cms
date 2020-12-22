@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "sponsors_pages",
+  "info": {
+    "name": "SponsorsPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Patrocinadores",
+      "maxLength": 50
+    },
+    "sponsors": {
+      "collection": "sponsors"
+    },
+    "commonPageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.common-page-data",
+      "required": true
+    }
+  }
+}
