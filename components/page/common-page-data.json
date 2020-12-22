@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_common_page_data",
+  "info": {
+    "name": "CommonPageData",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string",
+      "default": "| CONFIA"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
