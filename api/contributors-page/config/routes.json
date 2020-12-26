@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contributors-page",
+      "handler": "contributors-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contributors-page",
+      "handler": "contributors-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contributors-page",
+      "handler": "contributors-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

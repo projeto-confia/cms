@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "contributors_pages",
+  "info": {
+    "name": "Contributors Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commonPageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.common-page-data",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Colaboradores",
+      "required": true
+    },
+    "members": {
+      "collection": "member"
+    }
+  }
+}
