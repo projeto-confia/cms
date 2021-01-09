@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "publications_pages",
+  "info": {
+    "name": "PublicationsPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commonPageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.common-page-data"
+    },
+    "title": {
+      "type": "string",
+      "default": "Publicações",
+      "required": true
+    },
+    "publications": {
+      "collection": "publications"
+    }
+  }
+}

@@ -37,6 +37,10 @@
     "description": {
       "type": "text",
       "maxLength": 200
+    },
+    "publication": {
+      "via": "members",
+      "model": "publications"
     }
   }
 }

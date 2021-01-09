@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publications",
+  "info": {
+    "name": "publications"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "abstract": {
+      "type": "richtext",
+      "required": false
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "type": "string",
+      "required": true
+    },
+    "publishingInstitution": {
+      "type": "string"
+    },
+    "members": {
+      "collection": "member",
+      "via": "publication"
+    },
+    "publicationLink": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "publicationDate": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
