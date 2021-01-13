@@ -15,7 +15,7 @@
     },
     "keywords": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "authors": {
       "type": "string",
