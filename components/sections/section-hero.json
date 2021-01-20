@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_section_heroes",
+  "info": {
+    "name": "sectionHero",
+    "icon": "bolt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "CONFIA",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 400,
+      "default": "O projeto CONFIA (Combate a Notícias Falsas empregando Inteligência Artificial) tem como objetivo principal desenvolver um protótipo de um ambiente computacional de combate automático a fake news sobre COVID-19 e outras SARS (síndrome respiratória aguda grave) escritas em Língua Portuguesa e divulgadas em redes sociais virtuais. "
+    }
+  }
+}

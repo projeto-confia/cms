@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commonPageData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.common-page-data"
+    },
+    "sectionHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-hero",
+      "required": true
+    },
+    "sectionStatistics": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-statictics",
+      "required": true
+    },
+    "sectionOverview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-overview",
+      "required": true
+    }
+  }
+}
