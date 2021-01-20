@@ -11,7 +11,7 @@
   "attributes": {
     "commonPageData": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "page.common-page-data"
     },
     "sectionHero": {
