@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "publications_pages",
+  "collectionName": "project_pages",
   "info": {
-    "name": "Publications Page"
+    "name": "Project Page"
   },
   "options": {
     "increments": true,
@@ -16,11 +16,12 @@
     },
     "title": {
       "type": "string",
-      "default": "Publicações",
-      "required": true
+      "required": true,
+      "default": "Projeto CONFIA"
     },
-    "publications": {
-      "collection": "publications"
+    "content": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

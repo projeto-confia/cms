@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "sponsors_pages",
   "info": {
-    "name": "SponsorsPage"
+    "name": "Sponsors Page"
   },
   "options": {
     "increments": true,
