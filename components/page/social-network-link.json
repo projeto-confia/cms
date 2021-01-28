@@ -13,7 +13,8 @@
         "LinkedIn",
         "Facebook",
         "Lattes",
-        "Twitter"
+        "Twitter",
+        "YouTube"
       ],
       "default": "LinkedIn",
       "required": true
