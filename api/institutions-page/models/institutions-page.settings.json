@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "institutions_pages",
+  "info": {
+    "name": "Institutions Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commonPageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.common-page-data"
+    },
+    "title": {
+      "type": "string",
+      "default": "Instituições",
+      "required": true
+    },
+    "institutions": {
+      "collection": "institutions"
+    }
+  }
+}

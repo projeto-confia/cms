@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "institutions",
+  "info": {
+    "name": "institutions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

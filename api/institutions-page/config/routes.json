@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/institutions-page",
+      "handler": "institutions-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/institutions-page",
+      "handler": "institutions-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/institutions-page",
+      "handler": "institutions-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
