@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "events_pages",
+  "info": {
+    "name": "Events Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commonPageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.common-page-data"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Eventos"
+    },
+    "videoCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.video-card"
+    }
+  }
+}
