@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_related_links",
+  "info": {
+    "name": "RelatedLink",
+    "icon": "bezier-curve"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 300
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

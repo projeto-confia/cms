@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "links_pages",
+  "info": {
+    "name": "Links Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commonPageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.common-page-data"
+    },
+    "title": {
+      "type": "string",
+      "default": "Links",
+      "required": true
+    },
+    "relatedLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.related-link"
+    }
+  }
+}
