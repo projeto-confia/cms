@@ -14,18 +14,7 @@
     "description": {
       "type": "text",
       "required": true,
-      "maxLength": 900,
       "default": "A visão geral do funcionamento do protótipo é representanda pela figura abaixo. O ambiente funcionará de forma automática, cíclica e contínua. As notícias capturadas pelo módulo de monitoramento serão analisadas pelo módulo de detecção que irá filtrar as notícias potencialmente falsas. O módulo de intervenção executará duas ações principais: confirmar a notícia detectada como falsa com as Agências de Checagem de Fatos e, logo após a confirmação, publicar alertas nas redes sociais. "
-    },
-    "media": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": true
     }
   }
 }

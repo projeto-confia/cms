@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_section_sub_projects",
+  "info": {
+    "name": "sectionSubProjects",
+    "icon": "project-diagram"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "title"
+    },
+    "message": {
+      "type": "text"
+    },
+    "subProject": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.sub-project"
+    }
+  }
+}

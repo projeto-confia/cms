@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_sub_projects",
+  "info": {
+    "name": "subProject",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
