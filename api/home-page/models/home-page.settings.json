@@ -20,12 +20,6 @@
       "component": "sections.section-hero",
       "required": true
     },
-    "sectionStatistics": {
-      "type": "component",
-      "repeatable": false,
-      "component": "sections.section-statictics",
-      "required": true
-    },
     "sectionOverview": {
       "type": "component",
       "repeatable": false,
