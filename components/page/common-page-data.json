@@ -9,15 +9,6 @@
     "tabTitle": {
       "type": "string",
       "default": "| CONFIA"
-    },
-    "logo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true
     }
   }
 }
