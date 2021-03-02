@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "jed_pages",
+  "info": {
+    "name": "JED Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commonPageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.common-page-data",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "JED"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Jogos Educacionais Digitais para Apoio à Capacitação Discente na Identificação de Fake News Escritas em Língua Portuguesa"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "content": {
+      "type": "richtext",
+      "default": "Uma das principais estratégias de combate às Fake News é pelo desenvolvimento, na sociedade, de uma capacidade crítica (isenta de preconceitos, ideologias e interesses) que possibilite uma melhor distinção entre as informações verdadeiras e falsas nos meios digitais. Uma forma de prover tal capacidade é por meio de iniciativas educacionais. Entre elas, merecem destaque os jogos educacionais digitais (JED) que, historicamente têm sido adotados com sucesso como ferramentas de apoio ao aprendizado de diferentes conteúdos em diferentes níveis de ensino. Embora existam estudos voltados à experimentação de JED como instrumentos de capacitação de pessoas na identificação de Fake News, os JED utilizados não dispõem de notícias escritas em Língua Portuguesa. Assim, o presente subprojeto tem como objetivos desenvolver, avaliar e disponibilizar JED baseados em técnicas de Inteligência Artificial e Aprendizado de Máquina para apoiar à capacitação de estudantes da Educação Básica brasileira na identificação de Fake News escritas em Língua Portuguesa.",
+      "required": true
+    }
+  }
+}

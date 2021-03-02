@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/automata-page",
+      "handler": "automata-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/automata-page",
+      "handler": "automata-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/automata-page",
+      "handler": "automata-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

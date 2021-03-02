@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jed-page",
+      "handler": "jed-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jed-page",
+      "handler": "jed-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jed-page",
+      "handler": "jed-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

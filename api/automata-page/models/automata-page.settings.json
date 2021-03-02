@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "automata_pages",
+  "info": {
+    "name": "AUTOMATA Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commonPageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.common-page-data",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Automata"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Um Ambiente Computacional para Combate Automático a Fake News sobre COVID-19 e outras SARS em Redes Sociais Virtuais"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "content": {
+      "type": "richtext",
+      "default": "Responsável pela morte de mais de um milhão de pessoas ao redor do mundo em 2020, a pandemia de COVID-19 tem sido objeto de inúmeras Fake News divulgadas em redes sociais virtuais, o que tem dificultado de forma significativa o esclarecimento da população sobre a propagação da pandemia e as devidas medidas de enfrentamento da doença a serem adotadas a cada instante. Diante deste cenário, o presente subprojeto tem como objetivos desenvolver e avaliar um protótipo de um ambiente computacional baseado em técnicas de Inteligência Artificial e Aprendizado de Máquina para detectar e intervir de forma automática em Fake News sobre COVID-19 e outras SARS escritas em Língua Portuguesa e divulgadas no Twitter.",
+      "required": true
+    }
+  }
+}
