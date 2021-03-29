@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/news-monitoring-page",
+      "handler": "news-monitoring-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/news-monitoring-page",
+      "handler": "news-monitoring-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/news-monitoring-page",
+      "handler": "news-monitoring-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

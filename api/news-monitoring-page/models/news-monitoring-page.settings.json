@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_monitoring_pages",
+  "info": {
+    "name": "News Monitoring Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commonPageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.common-page-data"
+    },
+    "title": {
+      "type": "string",
+      "default": "Monitoramento de Notícias sobre COVID-19 no Twitter",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
