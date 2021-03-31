@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/support-for-training-in-fake-news-identification-page",
+      "handler": "support-for-training-in-fake-news-identification-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/support-for-training-in-fake-news-identification-page",
+      "handler": "support-for-training-in-fake-news-identification-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/support-for-training-in-fake-news-identification-page",
+      "handler": "support-for-training-in-fake-news-identification-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
