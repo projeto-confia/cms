@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "support_for_training_in_fake_news_identification_pages",
+  "info": {
+    "name": "Support for Training in Fake News Identification Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commonPageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.common-page-data"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Apoio à Capacitação na Identificação de Fake News"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
