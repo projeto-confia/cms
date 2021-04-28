@@ -24,11 +24,11 @@
     "strapi-plugin-graphql": "3.1.5",
     "strapi-plugin-upload": "3.1.5",
     "strapi-plugin-users-permissions": "3.1.5",
-    "strapi-provider-upload-azure-storage": "^1.1.1",
+    "strapi-provider-upload-cloudinary": "3.0.0",
     "strapi-utils": "3.1.5"
   },
   "author": {
-    "name": "KMoreira(kmoreira620@gmail.com)"
+    "name": "CarlosHMoreira(kmoreira620@gmail.com)"
   },
   "strapi": {
     "uuid": "cad0c1a5-6773-4b57-bd83-e29ccdebec51"
