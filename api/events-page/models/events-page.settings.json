@@ -21,6 +21,14 @@
     },
     "events": {
       "collection": "events"
+    },
+    "eventsPerPage": {
+      "default": 10,
+      "required": true,
+      "type": "integer",
+      "max": 20,
+      "min": 5,
+      "private": false
     }
   }
 }
