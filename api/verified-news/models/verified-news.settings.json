@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "verified_news",
+  "info": {
+    "name": "VerifiedNews"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "Categoria": {
+      "type": "enumeration",
+      "enum": [
+        "Fake"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "externalId": {
+      "type": "string"
+    }
+  }
+}

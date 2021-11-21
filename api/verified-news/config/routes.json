@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/verified-news",
+      "handler": "verified-news.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/verified-news/count",
+      "handler": "verified-news.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/verified-news/:id",
+      "handler": "verified-news.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/verified-news",
+      "handler": "verified-news.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/verified-news/:id",
+      "handler": "verified-news.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/verified-news/:id",
+      "handler": "verified-news.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
