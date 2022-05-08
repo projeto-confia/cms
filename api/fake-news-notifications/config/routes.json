@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fake-news-notifications",
+      "handler": "fake-news-notifications.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fake-news-notifications/count",
+      "handler": "fake-news-notifications.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fake-news-notifications/:id",
+      "handler": "fake-news-notifications.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fake-news-notifications",
+      "handler": "fake-news-notifications.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fake-news-notifications/:id",
+      "handler": "fake-news-notifications.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fake-news-notifications/:id",
+      "handler": "fake-news-notifications.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
